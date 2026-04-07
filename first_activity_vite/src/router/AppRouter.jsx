@@ -1,6 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
 
+
+
+// De momento no usamos estas páginas a medida que se vayan desarrollando desomentariar
 //import Landing from "../pages/Landing/Landing.jsx";
 // import Login from "../pages/Login/Login.jsx";
 // import Home from "../pages/Home/Home.jsx";
@@ -11,8 +14,12 @@ import Navbar from "../components/Navbar/Navbar";
 const AppRouter = () => {
     return (
         <BrowserRouter>
+
+            <Navbar />
+
             <Routes>
-                <Navbar />
+                {/* Rutas desactivadas temporalmente */}
+
                 {/*
                 <Route path="/" element={<Landing />} />
                 <Route path="/login" element={<Login />} />
