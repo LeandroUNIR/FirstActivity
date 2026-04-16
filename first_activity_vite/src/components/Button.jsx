@@ -1,4 +1,4 @@
-import { BUTTON_COLORS } from "../constants/buttonColors";
+import { BUTTON_COLORS } from "../utils/constants/buttonColors.js";
 const Button = ({ children, color = "blue", icon }) => {
     
     const colorClasses = BUTTON_COLORS[color]
