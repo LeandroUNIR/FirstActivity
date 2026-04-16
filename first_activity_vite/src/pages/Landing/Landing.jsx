@@ -1,13 +1,9 @@
-import Navbar from "../../components/navbar/Navbar";
-
-const Home = () => {
+const Landing = () => {
     return (
         <>
-            <Navbar />
-
             <h1>Bienvenido a la página principal</h1>
         </>
     );
 };
 
-export default Home;
+export default Landing;
