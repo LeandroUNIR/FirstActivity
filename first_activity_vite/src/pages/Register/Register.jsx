@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Input from "../../components/Input";
+import Input from "../../components/InputLoginResgister";
 import { useForm } from "../../hooks/useForm";
-import Button from "../../components/Button";
+import Button from "../../components/ButtonLoginRegister";
 import { Link } from "react-router-dom";
 
 const Register = () => {
