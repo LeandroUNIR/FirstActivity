@@ -1,4 +1,4 @@
-import Input from "../../components/InputLoginResgister";
+import Input from "../../components/InputLoginRegister";
 import { useForm } from "../../hooks/useForm";
 import Button from "../../components/ButtonLoginRegister";
 import { Link } from "react-router-dom";
