@@ -1,13 +1,13 @@
+import Card from '../../components/Card';
 import Books from '../../data/books.json';
 
 const Catalog = () => {
     return (
-        <div class="flex flex-row gap-10 p-6 max-w-5xl mx-auto">
+        <div className="flex flex-wrap flex-row gap-10 p-6 max-w-5xl mx-auto">
             {
                 Books.map((book,i) => (
-                    <div className="basis-full" key={i}>
-                        <h3>{book.titulo}</h3>
-                        <p>{book.autor}</p>
+                    <div className="basis-64" key={i}>
+                        <Card title={book.titulo} description={book.descripcion} imageRoute="/prueba3.jpg" />
                     </div>
                 ))
             }
