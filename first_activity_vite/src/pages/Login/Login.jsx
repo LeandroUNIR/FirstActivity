@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 // Usuario mock (simulación backend) borrar cuando se integre el back
 const MOCK_USER = {
-  email: "juanito@gmail.com",
+  email: "juan@gmail.com",
   password: "123456",
 };
 
@@ -93,8 +93,9 @@ const Login = () => {
 
     console.log("Login correcto", { email, password });
 
-    // Redirección usuario correcto
-    navigate("/");
+    // Redirección usuario correcto y guarda usuario
+    localStorage.setItem("user", JSON.stringify({ email }));
+    navigate("/profile");
   };
 
   return (
@@ -137,7 +138,7 @@ const Login = () => {
             </Link>{" "}
             o{" "}
             <Link to="/forgotpass" className="text-blue-500 underline">
-              recuperar contraseña
+              Recuperar contraseña
             </Link>
           </p>
         </form>
