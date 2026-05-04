@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Input from "../../components/InputLoginRegister";
+import Input from "../../components/Input";
 import { useForm } from "../../hooks/useForm";
-import Button from "../../components/ButtonLoginRegister";
+import Button from "../../components/Button";
 import { Link } from "react-router-dom";
 
 const Register = () => {
@@ -224,7 +224,7 @@ const Register = () => {
           </button>
 
           {showPolicy && (
-            <div className="bg-gray-100 p-2 mt-1 rounded text-xs h-16 overflow-y-auto border">
+            <div className="bg-gray-100 p-2 mt-1 rounded text-xs h-10 overflow-y-auto border">
               Aquí irá la política de tratamiento de datos.
             </div>
           )}

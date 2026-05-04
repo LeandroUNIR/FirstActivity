@@ -1,6 +1,6 @@
-import Input from "../../components/InputLoginRegister";
+import Input from "../../components/Input";
 import { useForm } from "../../hooks/useForm";
-import Button from "../../components/ButtonLoginRegister";
+import Button from "../../components/Button";
 import { Link } from "react-router-dom";
 
 const Login = () => {
