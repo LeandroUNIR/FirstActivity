@@ -1,0 +1,1352 @@
+[
+    {
+        "id": 1,
+        "titulo": "Cien años de soledad",
+        "descripcion": "Saga familiar en Macondo llena de realismo mágico",
+        "paginas": 417,
+        "costo_cop": 45000,
+        "autor": "Gabriel García Márquez",
+        "generos": [
+            "Realismo mágico",
+            "Novela"
+        ],
+        "stock": 73,
+        "calificacion": 4.8,
+        "imagen": "string"
+    },
+    {
+        "id": 2,
+        "titulo": "1984",
+        "descripcion": "Distopía sobre vigilancia y control totalitario",
+        "paginas": 328,
+        "costo_cop": 38000,
+        "autor": "George Orwell",
+        "generos": [
+            "Distopía",
+            "Ciencia ficción"
+        ],
+        "stock": 22,
+        "calificacion": 4.7,
+        "imagen": "string"
+    },
+    {
+        "id": 3,
+        "titulo": "Don Quijote de la Mancha",
+        "descripcion": "Aventuras de caballero idealista y su escudero",
+        "paginas": 863,
+        "costo_cop": 60000,
+        "autor": "Miguel de Cervantes",
+        "generos": [
+            "Clásico",
+            "Novela"
+        ],
+        "stock": 15,
+        "calificacion": 4.9,
+        "imagen": "string"
+    },
+    {
+        "id": 4,
+        "titulo": "El principito",
+        "descripcion": "Fábula poética sobre infancia y humanidad",
+        "paginas": 96,
+        "costo_cop": 25000,
+        "autor": "Antoine de Saint-Exupéry",
+        "generos": [
+            "Fábula",
+            "Infantil"
+        ],
+        "stock": 90,
+        "calificacion": 4.9,
+        "imagen": "string"
+    },
+    {
+        "id": 5,
+        "titulo": "Orgullo y prejuicio",
+        "descripcion": "Romance y crítica social en Inglaterra",
+        "paginas": 432,
+        "costo_cop": 35000,
+        "autor": "Jane Austen",
+        "generos": [
+            "Romance",
+            "Clásico"
+        ],
+        "stock": 40,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 6,
+        "titulo": "Crimen y castigo",
+        "descripcion": "Conflicto moral de un asesino en Rusia",
+        "paginas": 671,
+        "costo_cop": 52000,
+        "autor": "Fiódor Dostoyevski",
+        "generos": [
+            "Novela",
+            "Psicológico"
+        ],
+        "stock": 33,
+        "calificacion": 4.8,
+        "imagen": "string"
+    },
+    {
+        "id": 7,
+        "titulo": "El gran Gatsby",
+        "descripcion": "Sueño americano y decadencia social",
+        "paginas": 218,
+        "costo_cop": 30000,
+        "autor": "F. Scott Fitzgerald",
+        "generos": [
+            "Clásico",
+            "Drama"
+        ],
+        "stock": 61,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 8,
+        "titulo": "Matar a un ruiseñor",
+        "descripcion": "Racismo y justicia en el sur de EEUU",
+        "paginas": 281,
+        "costo_cop": 34000,
+        "autor": "Harper Lee",
+        "generos": [
+            "Drama",
+            "Clásico"
+        ],
+        "stock": 58,
+        "calificacion": 4.8,
+        "imagen": "string"
+    },
+    {
+        "id": 9,
+        "titulo": "La odisea",
+        "descripcion": "Viaje épico de regreso a Ítaca",
+        "paginas": 541,
+        "costo_cop": 42000,
+        "autor": "Homero",
+        "generos": [
+            "Épico",
+            "Clásico"
+        ],
+        "stock": 21,
+        "calificacion": 4.7,
+        "imagen": "string"
+    },
+    {
+        "id": 10,
+        "titulo": "La iliada",
+        "descripcion": "Guerra de Troya y honor heroico",
+        "paginas": 683,
+        "costo_cop": 43000,
+        "autor": "Homero",
+        "generos": [
+            "Épico",
+            "Clásico"
+        ],
+        "stock": 19,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 11,
+        "titulo": "Fahrenheit 451",
+        "descripcion": "Sociedad que quema libros y censura ideas",
+        "paginas": 249,
+        "costo_cop": 31000,
+        "autor": "Ray Bradbury",
+        "generos": [
+            "Distopía",
+            "Ciencia ficción"
+        ],
+        "stock": 70,
+        "calificacion": 4.7,
+        "imagen": "string"
+    },
+    {
+        "id": 12,
+        "titulo": "Drácula",
+        "descripcion": "Historia del vampiro más famoso",
+        "paginas": 418,
+        "costo_cop": 36000,
+        "autor": "Bram Stoker",
+        "generos": [
+            "Terror",
+            "Gótico"
+        ],
+        "stock": 65,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 13,
+        "titulo": "Frankenstein",
+        "descripcion": "Ciencia y monstruosidad humana",
+        "paginas": 280,
+        "costo_cop": 30000,
+        "autor": "Mary Shelley",
+        "generos": [
+            "Terror",
+            "Ciencia ficción"
+        ],
+        "stock": 55,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 14,
+        "titulo": "Los juegos del hambre",
+        "descripcion": "Competencia mortal en sociedad opresiva",
+        "paginas": 374,
+        "costo_cop": 39000,
+        "autor": "Suzanne Collins",
+        "generos": [
+            "Distopía",
+            "Juvenil"
+        ],
+        "stock": 84,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 15,
+        "titulo": "Harry Potter y la piedra filosofal",
+        "descripcion": "Inicio de aventuras mágicas de Harry",
+        "paginas": 309,
+        "costo_cop": 42000,
+        "autor": "J.K. Rowling",
+        "generos": [
+            "Fantasía",
+            "Juvenil"
+        ],
+        "stock": 92,
+        "calificacion": 4.9,
+        "imagen": "string"
+    },
+    {
+        "id": 16,
+        "titulo": "El señor de los anillos: La comunidad del anillo",
+        "descripcion": "Viaje para destruir anillo único",
+        "paginas": 576,
+        "costo_cop": 55000,
+        "autor": "J.R.R. Tolkien",
+        "generos": [
+            "Fantasía",
+            "Aventura"
+        ],
+        "stock": 47,
+        "calificacion": 4.9,
+        "imagen": "string"
+    },
+    {
+        "id": 17,
+        "titulo": "El hobbit",
+        "descripcion": "Aventura previa a la guerra del anillo",
+        "paginas": 310,
+        "costo_cop": 40000,
+        "autor": "J.R.R. Tolkien",
+        "generos": [
+            "Fantasía",
+            "Aventura"
+        ],
+        "stock": 76,
+        "calificacion": 4.8,
+        "imagen": "string"
+    },
+    {
+        "id": 18,
+        "titulo": "Los miserables",
+        "descripcion": "Redención y justicia en Francia",
+        "paginas": 1463,
+        "costo_cop": 70000,
+        "autor": "Victor Hugo",
+        "generos": [
+            "Drama",
+            "Histórico"
+        ],
+        "stock": 12,
+        "calificacion": 4.9,
+        "imagen": "string"
+    },
+    {
+        "id": 19,
+        "titulo": "Madame Bovary",
+        "descripcion": "Insatisfacción y tragedia personal",
+        "paginas": 329,
+        "costo_cop": 36000,
+        "autor": "Gustave Flaubert",
+        "generos": [
+            "Clásico",
+            "Drama"
+        ],
+        "stock": 38,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 20,
+        "titulo": "La metamorfosis",
+        "descripcion": "Hombre convertido en insecto gigante",
+        "paginas": 201,
+        "costo_cop": 28000,
+        "autor": "Franz Kafka",
+        "generos": [
+            "Ficción",
+            "Existencialismo"
+        ],
+        "stock": 68,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 21,
+        "titulo": "Macbeth",
+        "descripcion": "Tragedia de ambición y culpa en Escocia",
+        "paginas": 160,
+        "costo_cop": 28000,
+        "autor": "William Shakespeare",
+        "generos": [
+            "Tragedia",
+            "Clásico"
+        ],
+        "stock": 34,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 22,
+        "titulo": "El proceso",
+        "descripcion": "Juicio absurdo contra hombre inocente",
+        "paginas": 255,
+        "costo_cop": 30000,
+        "autor": "Franz Kafka",
+        "generos": [
+            "Ficción",
+            "Existencialismo"
+        ],
+        "stock": 52,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 23,
+        "titulo": "Los viajes de Gulliver",
+        "descripcion": "Viaje satírico por tierras imaginarias",
+        "paginas": 306,
+        "costo_cop": 32000,
+        "autor": "Jonathan Swift",
+        "generos": [
+            "Sátira",
+            "Aventura"
+        ],
+        "stock": 41,
+        "calificacion": 4.4,
+        "imagen": "string"
+    },
+    {
+        "id": 24,
+        "titulo": "Lo que el viento se llevó",
+        "descripcion": "Historia de amor durante guerra civil",
+        "paginas": 1037,
+        "costo_cop": 65000,
+        "autor": "Margaret Mitchell",
+        "generos": [
+            "Romance",
+            "Histórico"
+        ],
+        "stock": 19,
+        "calificacion": 4.7,
+        "imagen": "string"
+    },
+    {
+        "id": 25,
+        "titulo": "Moby Dick",
+        "descripcion": "Conflicto entre ballena y capitán obsesivo",
+        "paginas": 635,
+        "costo_cop": 48000,
+        "autor": "Herman Melville",
+        "generos": [
+            "Aventura",
+            "Clásico"
+        ],
+        "stock": 28,
+        "calificacion": 4.3,
+        "imagen": "string"
+    },
+    {
+        "id": 26,
+        "titulo": "El señor de las moscas",
+        "descripcion": "Niños atrapados crean sociedad salvaje",
+        "paginas": 224,
+        "costo_cop": 29000,
+        "autor": "William Golding",
+        "generos": [
+            "Ficción",
+            "Psicológico"
+        ],
+        "stock": 63,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 27,
+        "titulo": "Matar a un ruiseñor",
+        "descripcion": "Abogado enfrenta racismo en juicio",
+        "paginas": 281,
+        "costo_cop": 34000,
+        "autor": "Harper Lee",
+        "generos": [
+            "Drama",
+            "Clásico"
+        ],
+        "stock": 77,
+        "calificacion": 4.8,
+        "imagen": "string"
+    },
+    {
+        "id": 28,
+        "titulo": "Un mundo feliz",
+        "descripcion": "Sociedad futurista basada en placer controlado",
+        "paginas": 311,
+        "costo_cop": 36000,
+        "autor": "Aldous Huxley",
+        "generos": [
+            "Distopía",
+            "Ciencia ficción"
+        ],
+        "stock": 58,
+        "calificacion": 4.7,
+        "imagen": "string"
+    },
+    {
+        "id": 29,
+        "titulo": "Veinte mil leguas de viaje submarino",
+        "descripcion": "Aventura submarina con capitán Nemo",
+        "paginas": 426,
+        "costo_cop": 37000,
+        "autor": "Julio Verne",
+        "generos": [
+            "Ciencia ficción",
+            "Aventura"
+        ],
+        "stock": 46,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 30,
+        "titulo": "Asesinato en el Orient Express",
+        "descripcion": "Detective resuelve misterio en tren",
+        "paginas": 256,
+        "costo_cop": 30000,
+        "autor": "Agatha Christie",
+        "generos": [
+            "Misterio",
+            "Crimen"
+        ],
+        "stock": 69,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 31,
+        "titulo": "Diez negritos",
+        "descripcion": "Investigación de asesinato en mansión",
+        "paginas": 272,
+        "costo_cop": 31000,
+        "autor": "Agatha Christie",
+        "generos": [
+            "Misterio",
+            "Crimen"
+        ],
+        "stock": 44,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 32,
+        "titulo": "Grandes esperanzas",
+        "descripcion": "Crecimiento personal en sociedad victoriana",
+        "paginas": 544,
+        "costo_cop": 42000,
+        "autor": "Charles Dickens",
+        "generos": [
+            "Clásico",
+            "Drama"
+        ],
+        "stock": 36,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 33,
+        "titulo": "La cabaña del tío Tom",
+        "descripcion": "Vida en plantación y lucha moral",
+        "paginas": 576,
+        "costo_cop": 43000,
+        "autor": "Harriet Beecher Stowe",
+        "generos": [
+            "Drama",
+            "Histórico"
+        ],
+        "stock": 22,
+        "calificacion": 4.4,
+        "imagen": "string"
+    },
+    {
+        "id": 34,
+        "titulo": "Hombre invisible",
+        "descripcion": "Hombre invisible lucha contra sociedad",
+        "paginas": 581,
+        "costo_cop": 45000,
+        "autor": "Ralph Ellison",
+        "generos": [
+            "Ficción",
+            "Social"
+        ],
+        "stock": 55,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 35,
+        "titulo": "Beloved",
+        "descripcion": "Historia de esclavitud y libertad",
+        "paginas": 324,
+        "costo_cop": 35000,
+        "autor": "Toni Morrison",
+        "generos": [
+            "Drama",
+            "Histórico"
+        ],
+        "stock": 48,
+        "calificacion": 4.7,
+        "imagen": "string"
+    },
+    {
+        "id": 36,
+        "titulo": "El guardián entre el centeno",
+        "descripcion": "Juventud rebelde en Nueva York",
+        "paginas": 277,
+        "costo_cop": 31000,
+        "autor": "J.D. Salinger",
+        "generos": [
+            "Ficción",
+            "Juvenil"
+        ],
+        "stock": 73,
+        "calificacion": 4.4,
+        "imagen": "string"
+    },
+    {
+        "id": 37,
+        "titulo": "El hombre rebelde",
+        "descripcion": "Ensayo filosófico sobre rebelión",
+        "paginas": 185,
+        "costo_cop": 28000,
+        "autor": "Albert Camus",
+        "generos": [
+            "Filosofía",
+            "Ensayo"
+        ],
+        "stock": 29,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 38,
+        "titulo": "El mito de Sísifo",
+        "descripcion": "Reflexión sobre sentido de existencia",
+        "paginas": 123,
+        "costo_cop": 26000,
+        "autor": "Albert Camus",
+        "generos": [
+            "Filosofía",
+            "Ficción"
+        ],
+        "stock": 64,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 39,
+        "titulo": "Rebelión en la granja",
+        "descripcion": "Historia de corrupción política en granja",
+        "paginas": 112,
+        "costo_cop": 25000,
+        "autor": "George Orwell",
+        "generos": [
+            "Sátira",
+            "Política"
+        ],
+        "stock": 81,
+        "calificacion": 4.8,
+        "imagen": "string"
+    },
+    {
+        "id": 40,
+        "titulo": "Alicia en el país de las maravillas",
+        "descripcion": "Viaje surrealista por mundo onírico",
+        "paginas": 200,
+        "costo_cop": 29000,
+        "autor": "Lewis Carroll",
+        "generos": [
+            "Fantasía",
+            "Infantil"
+        ],
+        "stock": 67,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 41,
+        "titulo": "Harry Potter y la cámara secreta",
+        "descripcion": "Aventura mágica con hechicería moderna",
+        "paginas": 341,
+        "costo_cop": 42000,
+        "autor": "J.K. Rowling",
+        "generos": [
+            "Fantasía",
+            "Juvenil"
+        ],
+        "stock": 92,
+        "calificacion": 4.9,
+        "imagen": "string"
+    },
+    {
+        "id": 42,
+        "titulo": "Parque Jurásico",
+        "descripcion": "Exploración científica en isla misteriosa",
+        "paginas": 345,
+        "costo_cop": 36000,
+        "autor": "Michael Crichton",
+        "generos": [
+            "Ciencia ficción",
+            "Aventura"
+        ],
+        "stock": 54,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 43,
+        "titulo": "Apocalipsis",
+        "descripcion": "Pandemia mortal transforma humanidad",
+        "paginas": 823,
+        "costo_cop": 55000,
+        "autor": "Stephen King",
+        "generos": [
+            "Terror",
+            "Ficción"
+        ],
+        "stock": 31,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 44,
+        "titulo": "Eso",
+        "descripcion": "Payaso maligno aterroriza pueblo",
+        "paginas": 1138,
+        "costo_cop": 60000,
+        "autor": "Stephen King",
+        "generos": [
+            "Terror",
+            "Suspenso"
+        ],
+        "stock": 26,
+        "calificacion": 4.7,
+        "imagen": "string"
+    },
+    {
+        "id": 45,
+        "titulo": "Dune",
+        "descripcion": "Viaje épico en desierto futurista",
+        "paginas": 412,
+        "costo_cop": 47000,
+        "autor": "Frank Herbert",
+        "generos": [
+            "Ciencia ficción",
+            "Épico"
+        ],
+        "stock": 39,
+        "calificacion": 4.8,
+        "imagen": "string"
+    },
+    {
+        "id": 46,
+        "titulo": "El código Da Vinci",
+        "descripcion": "Detective investiga símbolos religiosos ocultos",
+        "paginas": 689,
+        "costo_cop": 48000,
+        "autor": "Dan Brown",
+        "generos": [
+            "Misterio",
+            "Thriller"
+        ],
+        "stock": 74,
+        "calificacion": 4.4,
+        "imagen": "string"
+    },
+    {
+        "id": 47,
+        "titulo": "La vida de Pi",
+        "descripcion": "Historia de supervivencia en mar",
+        "paginas": 319,
+        "costo_cop": 36000,
+        "autor": "Yann Martel",
+        "generos": [
+            "Aventura",
+            "Drama"
+        ],
+        "stock": 66,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 48,
+        "titulo": "Narrativa de la vida de Frederick Douglass",
+        "descripcion": "Relato autobiográfico de esclavitud",
+        "paginas": 120,
+        "costo_cop": 25000,
+        "autor": "Frederick Douglass",
+        "generos": [
+            "Biografía",
+            "Histórico"
+        ],
+        "stock": 21,
+        "calificacion": 4.7,
+        "imagen": "string"
+    },
+    {
+        "id": 49,
+        "titulo": "Jane Eyre",
+        "descripcion": "Historia de mujer independiente victoriana",
+        "paginas": 500,
+        "costo_cop": 43000,
+        "autor": "Charlotte Brontë",
+        "generos": [
+            "Romance",
+            "Clásico"
+        ],
+        "stock": 45,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 50,
+        "titulo": "Cumbres borrascosas",
+        "descripcion": "Relación destructiva en páramos ingleses",
+        "paginas": 416,
+        "costo_cop": 42000,
+        "autor": "Emily Brontë",
+        "generos": [
+            "Romance",
+            "Gótico"
+        ],
+        "stock": 37,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 51,
+        "titulo": "El retrato de Dorian Gray",
+        "descripcion": "Juventud eterna y corrupción moral",
+        "paginas": 254,
+        "costo_cop": 32000,
+        "autor": "Oscar Wilde",
+        "generos": [
+            "Filosófico",
+            "Gótico"
+        ],
+        "stock": 61,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 52,
+        "titulo": "La naranja mecánica",
+        "descripcion": "Violencia juvenil y control estatal",
+        "paginas": 192,
+        "costo_cop": 30000,
+        "autor": "Anthony Burgess",
+        "generos": [
+            "Distopía",
+            "Ciencia ficción"
+        ],
+        "stock": 47,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 53,
+        "titulo": "El psicoanalista",
+        "descripcion": "Amenaza psicológica contra un terapeuta",
+        "paginas": 530,
+        "costo_cop": 42000,
+        "autor": "John Katzenbach",
+        "generos": [
+            "Thriller",
+            "Psicológico"
+        ],
+        "stock": 72,
+        "calificacion": 4.4,
+        "imagen": "string"
+    },
+    {
+        "id": 54,
+        "titulo": "El alquimista",
+        "descripcion": "Viaje espiritual en busca de destino",
+        "paginas": 197,
+        "costo_cop": 28000,
+        "autor": "Paulo Coelho",
+        "generos": [
+            "Ficción",
+            "Filosofía"
+        ],
+        "stock": 88,
+        "calificacion": 4.3,
+        "imagen": "string"
+    },
+    {
+        "id": 55,
+        "titulo": "La sombra del viento",
+        "descripcion": "Misterio literario en Barcelona",
+        "paginas": 565,
+        "costo_cop": 45000,
+        "autor": "Carlos Ruiz Zafón",
+        "generos": [
+            "Misterio",
+            "Drama"
+        ],
+        "stock": 53,
+        "calificacion": 4.8,
+        "imagen": "string"
+    },
+    {
+        "id": 56,
+        "titulo": "El nombre de la rosa",
+        "descripcion": "Crimen en monasterio medieval",
+        "paginas": 512,
+        "costo_cop": 44000,
+        "autor": "Umberto Eco",
+        "generos": [
+            "Misterio",
+            "Histórico"
+        ],
+        "stock": 39,
+        "calificacion": 4.7,
+        "imagen": "string"
+    },
+    {
+        "id": 57,
+        "titulo": "El perfume",
+        "descripcion": "Obsesión por capturar olores humanos",
+        "paginas": 255,
+        "costo_cop": 31000,
+        "autor": "Patrick Süskind",
+        "generos": [
+            "Ficción",
+            "Psicológico"
+        ],
+        "stock": 66,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 58,
+        "titulo": "Ensayo sobre la ceguera",
+        "descripcion": "Epidemia de ceguera y caos social",
+        "paginas": 352,
+        "costo_cop": 38000,
+        "autor": "José Saramago",
+        "generos": [
+            "Ficción",
+            "Filosófico"
+        ],
+        "stock": 41,
+        "calificacion": 4.7,
+        "imagen": "string"
+    },
+    {
+        "id": 59,
+        "titulo": "El amor en los tiempos del cólera",
+        "descripcion": "Amor persistente durante décadas",
+        "paginas": 348,
+        "costo_cop": 39000,
+        "autor": "Gabriel García Márquez",
+        "generos": [
+            "Romance",
+            "Realismo mágico"
+        ],
+        "stock": 58,
+        "calificacion": 4.8,
+        "imagen": "string"
+    },
+    {
+        "id": 60,
+        "titulo": "Rayuela",
+        "descripcion": "Estructura narrativa no lineal experimental",
+        "paginas": 600,
+        "costo_cop": 46000,
+        "autor": "Julio Cortázar",
+        "generos": [
+            "Experimental",
+            "Ficción"
+        ],
+        "stock": 33,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 61,
+        "titulo": "Pedro Páramo",
+        "descripcion": "Pueblo fantasmal y voces del pasado",
+        "paginas": 124,
+        "costo_cop": 27000,
+        "autor": "Juan Rulfo",
+        "generos": [
+            "Realismo mágico",
+            "Ficción"
+        ],
+        "stock": 77,
+        "calificacion": 4.7,
+        "imagen": "string"
+    },
+    {
+        "id": 62,
+        "titulo": "La ciudad y los perros",
+        "descripcion": "Vida militar y brutalidad juvenil",
+        "paginas": 352,
+        "costo_cop": 37000,
+        "autor": "Mario Vargas Llosa",
+        "generos": [
+            "Drama",
+            "Realista"
+        ],
+        "stock": 49,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 63,
+        "titulo": "Conversación en La Catedral",
+        "descripcion": "Corrupción política en Perú",
+        "paginas": 601,
+        "costo_cop": 48000,
+        "autor": "Mario Vargas Llosa",
+        "generos": [
+            "Drama",
+            "Político"
+        ],
+        "stock": 28,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 64,
+        "titulo": "El túnel",
+        "descripcion": "Obsesión amorosa y crimen",
+        "paginas": 160,
+        "costo_cop": 26000,
+        "autor": "Ernesto Sabato",
+        "generos": [
+            "Psicológico",
+            "Ficción"
+        ],
+        "stock": 62,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 65,
+        "titulo": "Sobre héroes y tumbas",
+        "descripcion": "Historia compleja de identidad y locura",
+        "paginas": 512,
+        "costo_cop": 43000,
+        "autor": "Ernesto Sabato",
+        "generos": [
+            "Ficción",
+            "Existencialismo"
+        ],
+        "stock": 21,
+        "calificacion": 4.7,
+        "imagen": "string"
+    },
+    {
+        "id": 66,
+        "titulo": "El extranjero",
+        "descripcion": "Indiferencia emocional ante crimen",
+        "paginas": 123,
+        "costo_cop": 25000,
+        "autor": "Albert Camus",
+        "generos": [
+            "Existencialismo",
+            "Ficción"
+        ],
+        "stock": 91,
+        "calificacion": 4.8,
+        "imagen": "string"
+    },
+    {
+        "id": 67,
+        "titulo": "El ruido y la furia",
+        "descripcion": "Narrativa fragmentada sobre decadencia familiar",
+        "paginas": 326,
+        "costo_cop": 36000,
+        "autor": "William Faulkner",
+        "generos": [
+            "Ficción",
+            "Experimental"
+        ],
+        "stock": 36,
+        "calificacion": 4.4,
+        "imagen": "string"
+    },
+    {
+        "id": 68,
+        "titulo": "Mientras agonizo",
+        "descripcion": "Viaje familiar tras muerte materna",
+        "paginas": 267,
+        "costo_cop": 31000,
+        "autor": "William Faulkner",
+        "generos": [
+            "Ficción",
+            "Drama"
+        ],
+        "stock": 57,
+        "calificacion": 4.3,
+        "imagen": "string"
+    },
+    {
+        "id": 69,
+        "titulo": "Lolita",
+        "descripcion": "Relación obsesiva y controvertida",
+        "paginas": 336,
+        "costo_cop": 37000,
+        "autor": "Vladimir Nabokov",
+        "generos": [
+            "Ficción",
+            "Psicológico"
+        ],
+        "stock": 43,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 70,
+        "titulo": "Pálido fuego",
+        "descripcion": "Novela experimental con notas ficticias",
+        "paginas": 315,
+        "costo_cop": 35000,
+        "autor": "Vladimir Nabokov",
+        "generos": [
+            "Experimental",
+            "Ficción"
+        ],
+        "stock": 25,
+        "calificacion": 4.4,
+        "imagen": "string"
+    },
+    {
+        "id": 71,
+        "titulo": "American Psycho",
+        "descripcion": "Vida violenta de ejecutivo psicópata",
+        "paginas": 399,
+        "costo_cop": 41000,
+        "autor": "Bret Easton Ellis",
+        "generos": [
+            "Psicológico",
+            "Thriller"
+        ],
+        "stock": 68,
+        "calificacion": 4.2,
+        "imagen": "string"
+    },
+    {
+        "id": 72,
+        "titulo": "Fight Club",
+        "descripcion": "Identidad y caos en sociedad consumista",
+        "paginas": 218,
+        "costo_cop": 30000,
+        "autor": "Chuck Palahniuk",
+        "generos": [
+            "Ficción",
+            "Drama"
+        ],
+        "stock": 82,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 73,
+        "titulo": "El cuento de la criada",
+        "descripcion": "Sociedad opresiva contra mujeres",
+        "paginas": 311,
+        "costo_cop": 36000,
+        "autor": "Margaret Atwood",
+        "generos": [
+            "Distopía",
+            "Ficción"
+        ],
+        "stock": 55,
+        "calificacion": 4.7,
+        "imagen": "string"
+    },
+    {
+        "id": 74,
+        "titulo": "Oryx y Crake",
+        "descripcion": "Futuro postapocalíptico biotecnológico",
+        "paginas": 376,
+        "costo_cop": 39000,
+        "autor": "Margaret Atwood",
+        "generos": [
+            "Ciencia ficción",
+            "Distopía"
+        ],
+        "stock": 31,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 75,
+        "titulo": "Neuromante",
+        "descripcion": "Origen del ciberpunk moderno",
+        "paginas": 271,
+        "costo_cop": 34000,
+        "autor": "William Gibson",
+        "generos": [
+            "Ciencia ficción",
+            "Cyberpunk"
+        ],
+        "stock": 44,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 76,
+        "titulo": "Snow Crash",
+        "descripcion": "Realidad virtual y conspiraciones",
+        "paginas": 480,
+        "costo_cop": 42000,
+        "autor": "Neal Stephenson",
+        "generos": [
+            "Ciencia ficción",
+            "Cyberpunk"
+        ],
+        "stock": 29,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 77,
+        "titulo": "Ready Player One",
+        "descripcion": "Competencia en mundo virtual",
+        "paginas": 374,
+        "costo_cop": 38000,
+        "autor": "Ernest Cline",
+        "generos": [
+            "Ciencia ficción",
+            "Aventura"
+        ],
+        "stock": 73,
+        "calificacion": 4.4,
+        "imagen": "string"
+    },
+    {
+        "id": 78,
+        "titulo": "El marciano",
+        "descripcion": "Astronauta sobrevive en Marte",
+        "paginas": 369,
+        "costo_cop": 39000,
+        "autor": "Andy Weir",
+        "generos": [
+            "Ciencia ficción",
+            "Aventura"
+        ],
+        "stock": 67,
+        "calificacion": 4.7,
+        "imagen": "string"
+    },
+    {
+        "id": 79,
+        "titulo": "Proyecto Hail Mary",
+        "descripcion": "Misión espacial para salvar humanidad",
+        "paginas": 496,
+        "costo_cop": 45000,
+        "autor": "Andy Weir",
+        "generos": [
+            "Ciencia ficción",
+            "Drama"
+        ],
+        "stock": 38,
+        "calificacion": 4.8,
+        "imagen": "string"
+    },
+    {
+        "id": 80,
+        "titulo": "La carretera",
+        "descripcion": "Padre e hijo en mundo devastado",
+        "paginas": 287,
+        "costo_cop": 34000,
+        "autor": "Cormac McCarthy",
+        "generos": [
+            "Postapocalíptico",
+            "Drama"
+        ],
+        "stock": 59,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 81,
+        "titulo": "No es país para viejos",
+        "descripcion": "Persecución criminal en Texas",
+        "paginas": 309,
+        "costo_cop": 35000,
+        "autor": "Cormac McCarthy",
+        "generos": [
+            "Crimen",
+            "Thriller"
+        ],
+        "stock": 41,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 82,
+        "titulo": "Meridiano de sangre",
+        "descripcion": "Violencia extrema en frontera",
+        "paginas": 337,
+        "costo_cop": 37000,
+        "autor": "Cormac McCarthy",
+        "generos": [
+            "Western",
+            "Ficción"
+        ],
+        "stock": 22,
+        "calificacion": 4.6,
+        "imagen": "string"
+    },
+    {
+        "id": 83,
+        "titulo": "La ladrona de libros",
+        "descripcion": "Niña roba libros en guerra",
+        "paginas": 552,
+        "costo_cop": 43000,
+        "autor": "Markus Zusak",
+        "generos": [
+            "Histórico",
+            "Drama"
+        ],
+        "stock": 84,
+        "calificacion": 4.8,
+        "imagen": "string"
+    },
+    {
+        "id": 84,
+        "titulo": "Bajo la misma estrella",
+        "descripcion": "Romance entre jóvenes enfermos",
+        "paginas": 313,
+        "costo_cop": 36000,
+        "autor": "John Green",
+        "generos": [
+            "Romance",
+            "Juvenil"
+        ],
+        "stock": 93,
+        "calificacion": 4.4,
+        "imagen": "string"
+    },
+    {
+        "id": 85,
+        "titulo": "Ciudades de papel",
+        "descripcion": "Búsqueda de identidad juvenil",
+        "paginas": 305,
+        "costo_cop": 34000,
+        "autor": "John Green",
+        "generos": [
+            "Juvenil",
+            "Drama"
+        ],
+        "stock": 52,
+        "calificacion": 4.1,
+        "imagen": "string"
+    },
+    {
+        "id": 86,
+        "titulo": "Mil soles espléndidos",
+        "descripcion": "Vida de mujeres en Afganistán",
+        "paginas": 384,
+        "costo_cop": 39000,
+        "autor": "Khaled Hosseini",
+        "generos": [
+            "Drama",
+            "Histórico"
+        ],
+        "stock": 63,
+        "calificacion": 4.8,
+        "imagen": "string"
+    },
+    {
+        "id": 87,
+        "titulo": "Cometas en el cielo",
+        "descripcion": "Amistad y redención en Afganistán",
+        "paginas": 371,
+        "costo_cop": 38000,
+        "autor": "Khaled Hosseini",
+        "generos": [
+            "Drama",
+            "Ficción"
+        ],
+        "stock": 75,
+        "calificacion": 4.9,
+        "imagen": "string"
+    },
+    {
+        "id": 88,
+        "titulo": "La chica del tren",
+        "descripcion": "Misterio desde perspectiva inestable",
+        "paginas": 395,
+        "costo_cop": 37000,
+        "autor": "Paula Hawkins",
+        "generos": [
+            "Thriller",
+            "Misterio"
+        ],
+        "stock": 47,
+        "calificacion": 4.3,
+        "imagen": "string"
+    },
+    {
+        "id": 89,
+        "titulo": "Perdida",
+        "descripcion": "Desaparición y manipulación mediática",
+        "paginas": 422,
+        "costo_cop": 40000,
+        "autor": "Gillian Flynn",
+        "generos": [
+            "Thriller",
+            "Psicológico"
+        ],
+        "stock": 36,
+        "calificacion": 4.5,
+        "imagen": "string"
+    },
+    {
+        "id": 90,
+        "titulo": "Heridas abiertas",
+        "descripcion": "Periodista investiga crímenes en pueblo",
+        "paginas": 254,
+        "costo_cop": 32000,
+        "autor": "Gillian Flynn",
+        "generos": [
+            "Thriller",
+            "Psicológico"
+        ],
+        "stock": 28,
+        "calificacion": 4.2,
+        "imagen": "string"
+    }
+]
