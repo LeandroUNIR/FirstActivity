@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "../components/Layout";
 import Login from "../pages/Login/Login.jsx";
 import Register from "../pages/Register/Register.jsx";
+import ForgotPassword from "../pages/ForgotPassword/ForgotPassword.jsx";
 import Landing from "../pages/Landing/Landing.jsx";
 import Cart from "../pages/Cart/Cart.jsx";
 import Catalog from "../pages/Catalog/Catalog.jsx";
@@ -17,7 +18,8 @@ const AppRouter = () => {
 
                     {/* Rutas públicas */}
                     <Route path="/login" element={<Login />} />
-                    <Route path="/registro" element={<Register />} />
+                    <Route path="/register" element={<Register />} />
+                    <Route path="/forgotpass" element={<ForgotPassword />} />
 
                     {/* Rutas con layout */}
                     <Route element={<Layout />}>
