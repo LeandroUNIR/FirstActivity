@@ -21,6 +21,7 @@ type CartContextType = {
   discount: Discount | null;
   subtotal: number;
   total: number;
+  totalQuantity: number;
 
   addToCart: (item: CartItem) => void;
   removeFromCart: (id: number) => void;
@@ -81,6 +82,11 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
   }
 
   const total = Math.max(subtotal - discountAmount, 0);
+
+  const totalQuantity = cart.reduce(
+  (acc, item) => acc + item.quantity,
+  0
+);
 
   // Acciones
 
@@ -149,6 +155,7 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
         discount,
         subtotal,
         total,
+        totalQuantity,
         addToCart,
         removeFromCart,
         updateQty,

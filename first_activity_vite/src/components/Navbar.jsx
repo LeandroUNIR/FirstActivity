@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const user = JSON.parse(localStorage.getItem("user"));
 
-  const { cart } = useCart();
+  const { totalQuantity } = useCart();
 
   function isActive(path) {
     return pathname === path
@@ -26,7 +26,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="nav fixed top-0 left-0 right-0 w-full z-50 bg-white">
+    <nav className="nav fixed top-0 left-0 right-0 w-full z-50 bg-white border">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           {/* LINKS */}
@@ -65,9 +65,9 @@ const Navbar = () => {
           {/* ICONOS DERECHA */}
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:ml-6 sm:pr-0">
             {/* CART */}
-            {cart.length > 0 ? (
+            {totalQuantity > 0 ? (
               <span className="bg-red-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">
-                {cart.length}
+                {totalQuantity}
               </span>
             ) : (
               <></>
