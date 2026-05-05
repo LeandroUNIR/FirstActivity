@@ -23,7 +23,7 @@ const BookDetail = () => {
 
   return (
       <>
-        {/* 👇 Wrapper dinámico */}
+        {/* Wrapper dinámico */}
         <div
             className={`w-full pt-20 flex ${
                 cart.length > 0 ? "justify-start" : "justify-center"
@@ -49,7 +49,7 @@ const BookDetail = () => {
               </Button>
             </div>
 
-            {/* 📖 Detalles */}
+            {/* Detalles */}
             <div className="px-6">
               <h2 className="text-4xl font-bold pb-2">Título del libro</h2>
               <p className="text-lg pb-4">{bookDetail.titulo}</p>
