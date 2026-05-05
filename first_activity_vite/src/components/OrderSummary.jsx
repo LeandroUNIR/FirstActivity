@@ -20,7 +20,7 @@ export default function OrderSummary({ onCheckout, type }) {
   const { cart, subtotal, total, discount, applyDiscount, removeDiscount } =
     useCart();
 
-  // Calcular monto descontado (solo para UI)
+  // Calcular monto descontado
   const discountAmount = discount
     ? discount.type === "percentage"
       ? subtotal * (discount.value / 100)

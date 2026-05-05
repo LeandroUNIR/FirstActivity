@@ -1,8 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 
-// =====================
-// Tipos
-// =====================
+//Tipos
+
 export type CartItem = {
   id: number;
   title: string;
@@ -32,21 +31,19 @@ type CartContextType = {
   removeDiscount: () => void;
 };
 
-// =====================
+
 // Contexto
-// =====================
+
 const CartContext = createContext<CartContextType>({} as CartContextType);
 
-// =====================
 // Provider
-// =====================
+
 export const CartProvider = ({ children }: { children: React.ReactNode }) => {
   const [cart, setCart] = useState<CartItem[]>([]);
   const [discount, setDiscount] = useState<Discount | null>(null);
 
-  // =====================
   // Cargar desde localStorage
-  // =====================
+
   useEffect(() => {
     const storedCart = localStorage.getItem("cart");
     const storedDiscount = localStorage.getItem("discount");
@@ -55,9 +52,8 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
     if (storedDiscount) setDiscount(JSON.parse(storedDiscount));
   }, []);
 
-  // =====================
   // Guardar en localStorage
-  // =====================
+
   useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(cart));
   }, [cart]);
@@ -66,9 +62,8 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
     localStorage.setItem("discount", JSON.stringify(discount));
   }, [discount]);
 
-  // =====================
   // Cálculos
-  // =====================
+
   const subtotal = cart.reduce(
     (acc, item) => acc + item.price * item.quantity,
     0
@@ -87,9 +82,8 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
 
   const total = Math.max(subtotal - discountAmount, 0);
 
-  // =====================
   // Acciones
-  // =====================
+
   const addToCart = (item: CartItem) => {
     setCart(prev => {
       const exist = prev.find(p => p.id === item.id);
@@ -125,9 +119,8 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
     setDiscount(null);
   };
 
-  // =====================
   // Cupones simulados
-  // =====================
+
   const applyDiscount = (code: string): boolean => {
     const coupons: Record<string, Discount> = {
       LIBROS10: { type: "percentage", value: 10 },
@@ -147,9 +140,8 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
     setDiscount(null);
   };
 
-  // =====================
   // Provider
-  // =====================
+  
   return (
     <CartContext.Provider
       value={{
@@ -170,7 +162,6 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
-// =====================
 // Hook personalizado
-// =====================
+
 export const useCart = () => useContext(CartContext);
