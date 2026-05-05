@@ -2,9 +2,22 @@ import { useContext } from 'react';
 import { GlobalContext } from '../../context/AuthContext/global/GlobalContext';
 import Books from '../../data/books.json';
 import Button from '../../components/button';
+
+import { useCart } from '../../context/cart/CartProvider';
+
 const BookDetail = () => {
     const { bookId } = useContext(GlobalContext);
     const bookDetail = Books.find(book => book.id === bookId)
+
+    const bookCast = {
+        id : bookDetail.id,
+        title : bookDetail.titulo,
+        price : bookDetail.costo_cop,
+        author : bookDetail.autor
+    }
+    
+    const { addToCart } = useCart();
+    
     return (
 
         <div className="grid grid-cols-2 grid-rows-2 gap-4 pt-20">
@@ -12,7 +25,7 @@ const BookDetail = () => {
                 <img className="object-cover" src="/prueba3.jpg" alt="" />
             </div>
             <div className="col-start-1 row-start-2 text-center pt-10">
-                <Button color="green" type="button">
+                <Button color="green" type="button" onClick={() => addToCart(bookCast)}>
                     Agregar al carrito
                 </Button>
             </div>
