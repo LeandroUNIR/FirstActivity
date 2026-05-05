@@ -62,7 +62,7 @@ const Checkout = () => {
               >
                 Nombres
               </label>
-              <Input type="text" id="first_name" placeholder="" />
+              <Input type="text" id="first_name" placeholder="" maxLength={20}  />
             </div>
             <div>
               <label
@@ -71,7 +71,7 @@ const Checkout = () => {
               >
                 Apellidos
               </label>
-              <Input type="text" id="last_name" placeholder="" />
+              <Input type="text" id="last_name" placeholder="" maxLength={20} />
             </div>
             <div>
               <label
@@ -85,6 +85,7 @@ const Checkout = () => {
                 id="phone"
                 placeholder="123-45-678"
                 pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                maxLength={10}
               />
             </div>
             <div>
@@ -94,7 +95,7 @@ const Checkout = () => {
               >
                 Correo electrónico
               </label>
-              <Input type="email" id="email" placeholder="correo@ejemplo.com" />
+              <Input type="email" id="email" placeholder="correo@ejemplo.com" maxLength={10} />
             </div>
             <div>
               <label
@@ -103,7 +104,7 @@ const Checkout = () => {
               >
                 Dirección de envío
               </label>
-              <Input type="text" id="email" placeholder="Av. Los sauces #756" />
+              <Input type="text" id="email" placeholder="Av. Los sauces #756" maxLength={25} />
             </div>
           </div>
         </div>
