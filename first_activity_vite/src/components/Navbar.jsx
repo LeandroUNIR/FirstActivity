@@ -26,7 +26,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="nav">
+    <nav className="nav fixed top-0 left-0 right-0 w-full z-50 bg-white">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           {/* LINKS */}
