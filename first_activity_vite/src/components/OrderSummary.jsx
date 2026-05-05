@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Input from "../components/Input";
 import Button from "../components/Button";
+import { NavLink } from "react-router-dom";
 
 import { useCart } from "../context/cart/CartProvider";
 
@@ -12,18 +13,12 @@ import {
   CheckCircle,
 } from "lucide-react";
 
-export default function OrderSummary({ onCheckout }) {
+export default function OrderSummary({ onCheckout, type }) {
   const [couponCode, setCouponCode] = useState("");
   const [couponStatus, setCouponStatus] = useState({ type: "", message: "" });
 
-  const {
-    cart,
-    subtotal,
-    total,
-    discount,
-    applyDiscount,
-    removeDiscount,
-  } = useCart();
+  const { cart, subtotal, total, discount, applyDiscount, removeDiscount } =
+    useCart();
 
   // Calcular monto descontado (solo para UI)
   const discountAmount = discount
@@ -76,14 +71,13 @@ export default function OrderSummary({ onCheckout }) {
 
           <div className="flex gap-2">
             <div className="flex-1 relative">
-              <Input
+              <input
                 type="text"
+                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all outline-none text-sm"
                 value={couponCode}
                 onChange={(e) => setCouponCode(e.target.value.toUpperCase())}
                 placeholder="Ej: LIBROS10"
-                onKeyDown={(e) =>
-                  e.key === "Enter" && handleApplyCoupon()
-                }
+                onKeyDown={(e) => e.key === "Enter" && handleApplyCoupon()}
               />
 
               {couponStatus.message && (
@@ -104,9 +98,13 @@ export default function OrderSummary({ onCheckout }) {
               )}
             </div>
 
-            <Button onClick={handleApplyCoupon}>
+            <button
+              onClick={handleApplyCoupon}
+              disabled={!couponCode.trim()}
+              className="px-6 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all font-medium text-sm flex items-center gap-2"
+            >
               Aplicar
-            </Button>
+            </button>
           </div>
 
           {/* Si hay descuento activo */}
@@ -115,10 +113,7 @@ export default function OrderSummary({ onCheckout }) {
               <span>
                 Cupón aplicado: <b>{discount.code}</b>
               </span>
-              <button
-                onClick={removeDiscount}
-                className="text-red-500 text-xs"
-              >
+              <button onClick={removeDiscount} className="text-red-500 text-xs">
                 Quitar
               </button>
             </div>
@@ -156,9 +151,7 @@ export default function OrderSummary({ onCheckout }) {
           <div className="flex justify-between items-baseline">
             <h2 className="text-lg font-semibold">Total</h2>
             <div className="text-right">
-              <span className="text-2xl font-bold">
-                $ {total.toFixed(2)}
-              </span>
+              <span className="text-2xl font-bold">$ {total.toFixed(2)}</span>
 
               {discount && (
                 <p className="text-xs text-green-600">
@@ -170,13 +163,25 @@ export default function OrderSummary({ onCheckout }) {
         </div>
 
         {/* CHECKOUT */}
-        <button
-          onClick={onCheckout}
-          className="w-full bg-sky-600 text-white py-3 rounded-xl font-semibold flex items-center justify-center gap-2"
-        >
-          Continuar con la compra
-          <ChevronRight className="w-4 h-4" />
-        </button>
+        {type == "cart" ? (
+          <NavLink to="/checkout">
+            <button
+              disabled={cart.length == 0}
+              className="w-full bg-sky-600 text-white py-3 rounded-xl font-semibold flex items-center justify-center gap-2 disabled:bg-sky-300 disabled:cursor-not-allowed"
+            >
+              Continuar con la compra
+              <ChevronRight className="w-4 h-4" />
+            </button>
+          </NavLink>
+        ) : (
+          <button
+            disabled={cart.length == 0}
+            onClick={onCheckout}
+            className="w-full bg-sky-600 text-white py-3 rounded-xl font-semibold flex items-center justify-center gap-2 disabled:bg-sky-300 disabled:cursor-not-allowed"
+          >
+            Pagar
+          </button>
+        )}
       </div>
     </div>
   );

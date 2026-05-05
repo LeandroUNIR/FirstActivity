@@ -6,11 +6,6 @@ import OrderSummary from "../../components/OrderSummary";
 export default function Checkout() {
   const { cart, updateQty, removeFromCart } = useCart();
 
-  const handleCheckout = () => {
-    console.log("Procesar compra...");
-    // aquí luego conectas con backend o pasarela de pago
-  };
-
   return (
     <div className="p-5 grid grid-cols-1 sm:grid-cols-2 bg-gray-100 gap-4">
       {/* LISTA DE PRODUCTOS */}
@@ -38,7 +33,7 @@ export default function Checkout() {
 
       {/* RESUMEN */}
       <div className="p-1">
-        <OrderSummary onCheckout={handleCheckout} />
+        <OrderSummary type="cart" />
       </div>
     </div>
   );
