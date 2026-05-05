@@ -3,15 +3,42 @@ import OrderSummary from "../../components/OrderSummary";
 import { useCart } from "../../context/cart/CartProvider";
 import Input from "../../components/Input";
 import { User } from "lucide-react";
+import { useOrders } from "../../hooks/useOrders";
 
 const Checkout = () => {
-  const { clearCart } = useCart();
+  const { cart, clearCart } = useCart();
+  const { addOrder } = useOrders();
 
   const navigate = useNavigate();
 
-  const handleCheckout = () => {
-    window.alert("Pedido realizado correctamente");
+  const buildOrder = () => {
+    const user = JSON.parse(localStorage.getItem("user"));
 
+    const items = cart.map((item) => ({
+      id: item.id,
+      title: item.title,
+      price: item.price,
+      quantity: item.quantity,
+    }));
+
+    const total = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
+
+    return {
+      id: Date.now(),
+      createdAt: new Date().toISOString(),
+      userEmail: user?.email ?? "",
+      items,
+      total,
+      status: "Completado",
+    };
+  };
+
+  const handleCheckout = () => {
+    if (cart.length > 0) {
+      addOrder(buildOrder());
+    }
+
+    window.alert("Pedido realizado correctamente");
     localStorage.removeItem("cart"); // simulado mientras integran
     clearCart();
     navigate("/");
