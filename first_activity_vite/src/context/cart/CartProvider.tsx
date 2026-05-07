@@ -33,6 +33,7 @@ type CartContextType = {
 };
 
 
+
 // Contexto
 
 const CartContext = createContext<CartContextType>({} as CartContextType);
@@ -42,6 +43,7 @@ const CartContext = createContext<CartContextType>({} as CartContextType);
 export const CartProvider = ({ children }: { children: React.ReactNode }) => {
   const [cart, setCart] = useState<CartItem[]>([]);
   const [discount, setDiscount] = useState<Discount | null>(null);
+  const [initialized, setInitialized] = useState(false);
 
   // Cargar desde localStorage
 
@@ -51,17 +53,21 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
 
     if (storedCart) setCart(JSON.parse(storedCart));
     if (storedDiscount) setDiscount(JSON.parse(storedDiscount));
+
+    setInitialized(true);
   }, []);
 
   // Guardar en localStorage
 
   useEffect(() => {
+    if (!initialized) return;
     localStorage.setItem("cart", JSON.stringify(cart));
-  }, [cart]);
+  }, [cart, initialized]);
 
   useEffect(() => {
+    if (!initialized) return;
     localStorage.setItem("discount", JSON.stringify(discount));
-  }, [discount]);
+  }, [discount, initialized]);
 
   // Cálculos
 
