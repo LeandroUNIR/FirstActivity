@@ -1,4 +1,4 @@
-import Button from "./button"
+import Button from "./Button.jsx"
 import Input from "./Input";
 const Form = () => {
     return (

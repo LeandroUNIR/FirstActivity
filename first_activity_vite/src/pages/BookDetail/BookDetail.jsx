@@ -1,9 +1,8 @@
 import { useContext } from "react";
 import { GlobalContext } from "../../context/AuthContext/global/GlobalContext";
 import Books from "../../data/books.json";
-import Button from "../../components/button";
+import Button from "../../components/Button";
 import SideDetail from "../../components/SideDetail";
-
 import { useCart } from "../../context/cart/CartProvider";
 
 const BookDetail = () => {

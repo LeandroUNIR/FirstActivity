@@ -1,4 +1,4 @@
-import Button from "./button";
+import Button from "./Button.jsx";
 import { PiClipboardTextFill } from "react-icons/pi";
 import { useContext } from 'react';
 import { GlobalContext } from '../context/AuthContext/global/GlobalContext';
