@@ -2,6 +2,7 @@ import React from "react";
 import { useCart } from "../../context/cart/CartProvider";
 import CartBookItem from "../../components/CartBookItem";
 import OrderSummary from "../../components/OrderSummary";
+import Button from "./button";
 
 export default function Checkout() {
   const { cart, updateQty, removeFromCart } = useCart();

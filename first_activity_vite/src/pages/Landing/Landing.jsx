@@ -1,5 +1,6 @@
 import Card from "../../components/Card";
 import Input from "../../components/Input";
+import Button from "../../components/button";
 // import Form from "../../components/Form";
 import Button from "../../components/button";
 import Carrousel from "../../components/Carrousel";
