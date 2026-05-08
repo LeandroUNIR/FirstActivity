@@ -95,7 +95,7 @@ const Checkout = () => {
               >
                 Correo electrónico
               </label>
-              <Input type="email" id="email" placeholder="correo@ejemplo.com" maxLength={10} />
+              <Input type="email" id="email" placeholder="correo@ejemplo.com" maxLength={30} />
             </div>
             <div>
               <label
