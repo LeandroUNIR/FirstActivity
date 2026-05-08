@@ -3,6 +3,7 @@ import Input from "../../components/Input";
 // import Form from "../../components/Form";
 import Button from "../../components/button";
 import Carrousel from "../../components/Carrousel";
+import Books from '../../data/books.json';
 
 const Landing = () => {
     return (
@@ -11,9 +12,9 @@ const Landing = () => {
             
             {/* Contenedor para que la Card no ocupe todo el ancho si no quieres */}
             <div className="flex justify-center">
-                <Card title="Titulo personalizable" description="Contenido otro" imageRoute="/prueba3.jpg" />
-                <Card title="Titulo personalizable" description="Contenido otro" imageRoute="/prueba3.jpg" />
-                <Card title="Titulo personalizable" description="Contenido otro" imageRoute="/prueba3.jpg" />
+                <Card title={Books[0].titulo} description={Books[0].costo_cop} imageRoute="/prueba3.jpg" bookId={Books[0].id}/>
+                <Card title={Books[5].titulo} description={Books[5].costo_cop} imageRoute="/prueba3.jpg" bookId={Books[5].id}/>
+                <Card title={Books[10].titulo} description={Books[10].costo_cop} imageRoute="/prueba3.jpg" bookId={Books[10].id}/>
             </div>
 
             <h5 className="text-3xl font-semibold text-heading text-center">Contáctanos!</h5>
